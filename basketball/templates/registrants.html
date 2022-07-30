@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Registrants
+{% endblock %}
+
+{% block main %}
+<div class="section">
+
+    <h2>Registrants</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Birthday</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for person in registrants %}
+               <tr>
+                <th>{{ person["username"] }}</th>
+                <th>{{ person["email"] }}</th>
+                <th>{{ person["birthday"] }}</th>
+                <th>
+              <form action="/deregister" method="post">
+                <input name="registrants" type="hidden" value="{{ person.username }}">
+                <input type="submit" value="Delete">
+            </form>
+                </th>
+                </tr>
+            {% endfor %}
+        </tbody>
+        </table>
+
+{% endblock %}
+
+
+

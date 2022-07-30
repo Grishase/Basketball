@@ -1,0 +1,149 @@
+.backg{
+    background-image:url("/static/splash.jpeg");
+    background-size: 1600px 900px;
+}
+.p{
+    font-family:"Lucida Console", "Courier New", monospace;
+    text-align:center;
+    margin-right:100px;
+    margin-top:50px;
+  }
+
+.forms{
+    width:350px;
+    height:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-right:100px;
+    text-decoration:none;
+}
+.btn-light{
+    width:350px;
+    height:50px;
+    margin-top:45px;
+    margin-bottom:5px;
+    margin-right:100px;
+
+}
+
+.forms:hover{
+    background-color:#FDF5E6;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+.reg{
+    padding:1rem;
+}
+.top:hover{
+    background-color:white;
+    transition: color 2s ease-in-out, background-color 0.s ease-in-out;
+}
+#logo1{
+    padding:0;
+    margin-bottom:1px;
+    height:48px;
+    width:100px;
+    margin-left:10px;
+}
+#top-nav:hover{
+    background-color:white;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+#top-nav1{
+    text-decoration:none;
+    border:1px solid black;
+    border-radius:9px;
+    width:1000px;
+    height:60px;
+    padding:1px;
+    margin-top:5px;
+    margin-right:450px;
+    margin-left:280px;
+}
+#top-nav{
+    text-decoration:none;
+    border:1px solid black;
+    border-radius:9px;
+    width:1000px;
+    height:60px;
+    padding:1px;
+    margin-top:5px;
+    margin-right:450px;
+    margin-left:280px;
+}
+
+ul{
+    list-style-type:none;
+    margin:5px;
+    padding:0px;
+  }
+#kryt{
+    margin-top:50px;
+    margin-bottom:1px;
+}
+.nav-item{
+    text-decoration:none;
+    border-width:thin;
+    margin-top:1px;
+    margin-left:50px;
+    margin-right:75px;
+    padding:1px;
+    letter-spacing:3px;
+    text-align:justify;
+    color:green;
+}
+#n{
+text-decoration:none;
+    border-width:thin;
+    margin-top:1px;
+    margin-left:30px;
+    margin-right:50px;
+    padding:1px;
+    letter-spacing:3px;
+    text-align:justify;
+    color:green;
+}
+.nav-link{
+    color:white;
+    text-align:center;
+    margin-left:1px;
+}
+.top{
+    text-align:center;
+    margin-top:20px;
+    margin-left:150px;
+    margin-right:150px;
+    padding:0.1px;
+    color:black;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.section {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+}
+
+#ni{
+    margin-top:30px;
+    margin-right:80px;
+    margin-left:100px;
+    margin-bottom:100px;
+    opacity:0.7;
+    transition:.4s ease all;
+    transform:scale(.99);
+    width:700px;
+    height:600px;
+}
+video{
+    margin-top:50px;
+    margin-left:80px;
+    margin-bottom:100px;
+    padding:3rem;
+    opacity:0.85;
+    transition:.4s ease all;
+    transform:scale(1.4);
+    width:800px;
+    height:500px;
+
+}

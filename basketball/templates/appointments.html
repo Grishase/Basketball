@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Schedules
+{% endblock %}
+
+{% block main %}
+        <form action="/appointments" method="post">
+        {% if session ["user_id"] %}
+            <input autocomplete="off" autofocus name="name" placeholder="First and Last name" type="text" required >
+        <select name="time">
+            <option disabled selected>Available Times</option>
+            <option value="Mon-Fri 10:30am-12:30am & Mon-Fri 7:00pm-9:00pm" required >Mon-Fri 10:30am-12:30am & Mon-Fri 7:00pm-9:00pm</option>
+            <option value="Mornings" required>Mornings</option>
+            <option value="Afternoon" required>Afternoon</option>
+        </select>
+        <input type="submit" value="Book">
+        <input type="submit" name="user_id" href="/schedule" value="Change">
+        {% endif %}
+        </form>
+{% endblock %}

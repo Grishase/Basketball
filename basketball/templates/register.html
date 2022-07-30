@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+
+    <form action="/register" method="post">
+        <div>
+            <h2>Please fill up the required fields to see the available dates!</h2>
+        </div>
+
+            <div>
+                <input autocomplete="off" autofocus  class="forms" name="username" placeholder="Username" type="text">
+            </div>
+        <div>
+            <input autocomplete="off" autofocus  class="forms" name="email" placeholder="Email" type="email">
+        </div>
+        <div>
+            <input autocomplete="off" autofocus  class="forms" name="phonenumber" placeholder="Phone Number" type="tel">
+        </div>
+        <div>
+            <input autocomplete="off" autofocus  class="forms" name="birthday" placeholder="Birthday" type="date">
+        </div>
+
+        <div>
+            <input class="forms" name="password" placeholder="Password" type="password">
+        </div>
+        <div>
+            <input  class="forms" name="confirmation" placeholder="Confirm Password" type="password">
+        </div>
+        <div>
+        <button class="forms" type="submit" value="register">Register</button>
+    </div>
+
+    </form>
+
+{% endblock %}
