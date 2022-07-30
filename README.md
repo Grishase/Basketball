@@ -7,7 +7,7 @@
 
 # Features
 
-The application was made by Agrin with Python ,Flask framework,Sqlite HTML, little bit JavaScript to view the schedule as slideshow, and CSS.
+The application was made with Python ,Flask framework,Sqlite HTML, little bit JavaScript to view the schedule as slideshow, and CSS.
 
 * Python
 * Flask
