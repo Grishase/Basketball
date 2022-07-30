@@ -56,7 +56,25 @@ Learned implementation of routues  or paths,GET AND POST METHODS , HTML , CSS, P
 Planning to follow up with the Back-end Development course from META.
 
 
+Files
+app.py - main file with code that controls page behavior
+basketball.db - database with two tables:
+1.table of users.
+2.Appointments table.
+layout.html - Top Nav also shows the session user_id  and adming rights .
+about.html-  Home Page with videos and Image Changer make with Java Script.
+register.html - registration form.
+login.html - login form.
+schedule.html / shows the schedule . You can also delete the appointment or booking .
+admin.html shows the scheme of applicants that have booked in a training session.
+registrants.html made for admin to see which user has signed up and to be able to delete the user id.
 
 
+About CS50
+CS50 is a openware course from Havard University and taught by David J. Malan
+
+Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, and software engineering. Languages include C, Python, and SQL plus students’ choice of: HTML, CSS, and JavaScript (for web development).
+
+Thank you for all CS50.
 
 
